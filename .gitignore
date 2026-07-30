@@ -1,0 +1,15 @@
+# Secrets, never commit
+chave.txt
+*.key
+.env
+
+# Collected data, large and reconstructible
+data/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
